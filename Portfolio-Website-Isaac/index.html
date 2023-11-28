@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Website</title>
+    <script src="https://kit.fontawesome.com/c386de89ac.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Source+Sans+Pro:wght@300;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <button class="nav-toggle" aria-label="toggle navigation">
+            <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+            <ul class="nav_list">
+                <li class="nav_item"><a href="#home" class="nav_link">Home</a></li>
+                <li class="nav_item"><a href="#services" class="nav_link">What I do</a></li>
+                <li class="nav_item"><a href="#about" class="nav_link">About me</a></li>
+                <li class="nav_item"><a href="#work" class="nav_link">My work</a></li>
+                <li class="nav_item"><a href="#contact" class="nav_link">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Back to top button -->
+    <!-- 
+    <button class="back_to_top_btn"><i class="fa-solid fa-arrow-up"></i></i></button>
+    -->
+
+    <!--Introduction-->
+    <section class="intro" id="home">
+        <h1 class="section_title section_tittle_intro">
+            Hi, I am <strong>Isaac Appiagyei</strong>
+        </h1>
+        <p class="section_subtitle section_subtitle_intro">Game Developer</p>
+        <img src="Images/profile.jpg" alt="a picture of Isaac Appiagyei smiling" class="intro_img"> 
+    </section>
+
+    <!-- My services -->
+    <section class="my_services" id="services">
+        <h2 class="section_title section_title_services">What I do</h2>
+        <div class="services">
+            <div class="service">
+                <h3>Game development</h3>
+                <p>Develop games with C++ and Unreal Engine. If you want to take a look at my projects, please press the button below.</p>
+            </div> 
+            <div class="service">
+                <h3>Web development</h3>
+                <p>Provide front-end web development and design with CSS, HTML, Javascript and React.</p>
+            </div> 
+        </div>
+
+        <a href="#work" class="btn">My work</a>
+    </section>
+
+    <!-- About me -->
+    <section class="about_me" id="about">
+        <img src="Images/game-img.jpg" alt="Picture of a man playing video games" class="about_me_img">
+        <h2 class="section_title section_title_about">Who I am</h2>
+        <p class="section_subtitle section_subtitle_about">Game developer based in Malmö, Sweden.</p>
+        
+        <div class="about_me_body">
+            <p>I am a Game Tester at Massive Entertainment, where I have been working on Avatar: Frontiers of Pandora for nearly two years with great excitement.</p>
+            <p>My passion for video games and how they are made started early on as a child.</p>
+            <p>My love for action-adventure video games moved me to learn how to program with C++ and other programming languages.</p>
+        </div>
+    </section>
+
+      <!-- My work -->
+      <section class="my_work" id="work">
+          <h2 class="section_title section_title_work">My work</h2>
+          <p class="section_subtitle section_subtitle_work">Here you'll find a selection of my portfolio projects</p>
+
+          <div class="portfolio">
+              <!-- Portfolio Item 1 -->
+              <a href="portfolio-item1.html" class="portfolio_item">
+                  <img src="Images/treasure-1.jpg" alt="photo of calender project" class="portfolio_img">
+              </a>
+
+               <!-- Portfolio Item 2 -->
+               <a href="portfolio-item2.html" class="portfolio_item">
+                <img src="Images/obstacle-assault1.jpg" alt="photo of testimonial project" class="portfolio_img">
+            </a>
+
+            <!-- Portfolio Item 3 -->
+            <a href="portfolio-item3.html" class="portfolio_item">
+                <img src="Images/tanks1.jpg" alt="photo of Q&A project" class="portfolio_img">
+            </a>
+
+            <a href="portfolio-item4.html" class="portfolio_item">
+                <img src="Images/Shooters-1.jpg" alt="photo of testimonial project" class="portfolio_img">
+            </a>
+          </div>
+      </section>
+
+      <!-- Footer -->
+      <footer class="footer">
+          <a href="mailto:clararasslan@gmail.com" class="footer_link">ik.appiagyei@gmail.com</a>
+          <ul class="social_list">
+              <li class="social_list_item">
+                  <a class="social_list_link" href="https://github.com/Isaac7app"><i class="fa-brands fa-github"></i></a>
+              </li>
+              <li class="social_list_item">
+                  <a class="social_list_link" href="https://www.linkedin.com/in/isaac-appiagyei-808bb8226/"><i class="fa-brands fa-linkedin"></i></a>
+              </li>
+          </ul>
+          <p>Developed by Isaac Appiagyei</p>
+      </footer>
+
+      <script src="index.js"></script>
+      <script src="https://smtpjs.com/v3/smtp.js"></script>
+</body>
+</html>
